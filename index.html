@@ -1,38 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>my todo list use js</title>
+    <title>My todo list use js</title>
     <meta charset="UTF-8" />
   </head>
 
   <body>
     <div class="input-area">
-      <input id="add-text" placeholder="type todo list" />
+      <input id="add-text" placeholder="write TODO" />
       <button id="add-button">Add</button>
     </div>
     <div class="incomplete-area">
-      <p class="title">todo</p>
-      <ul id="incomplete-list">
-        <div class="list-row">
-          <li>This is todo</li>
-          <button>done</button>
-          <button>delete</button>
-        </div>
-        <div class="list-row">
-          <li>This is todo</li>
-          <button>done</button>
-          <button>delete</button>
-        </div>
-      </ul>
+      <p class="title">Incomplete TODO</p>
+      <ul id="incomplete-list"></ul>
     </div>
     <div class="complete-area">
-      <p class="title">done todo</p>
-      <ul>
-        <div class="list-row">
-          <li>well done</li>
-          <button>remove</button>
-        </div>
-      </ul>
+      <p class="title">Complete TODO</p>
+      <ul id="complete-list"></ul>
     </div>
     <script src="src/index.js"></script>
   </body>
